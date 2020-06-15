@@ -1,0 +1,12 @@
+:root {
+  --c-black: #02020d;
+  --c-gray: #495b73;
+  --c-blue: #011c40;
+  --c-darkBlue: #011126;
+  --c-pink: #ccbcba;
+
+  --headerLogoSize: 40px;
+
+  --fingerSize: 40px;
+  --gutter: 20px;
+}
