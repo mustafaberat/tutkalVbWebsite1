@@ -1,0 +1,48 @@
+.header {
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  background-color: green;
+}
+
+.header .container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--gutter);
+  padding-bottom: var(--gutter);
+}
+
+.header-logo img {
+  width: var(--headerLogoSize);
+  padding: 6px;
+}
+
+.header-buttons {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.header-button {
+  color: var(--c-border-color);
+  border-radius: var(--borderRadius);
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  height: var(--fingerSize);
+  margin-right: 4px;
+}
+
+/* For last button of header -> mr0 */
+.header-button:last-child {
+  margin-right: 0px;
+}
+
+.header-button:hover {
+  color: var(--white);
+  background-color: var(--c-red);
+  transition: 0.2s;
+}
