@@ -1,0 +1,22 @@
+@import "./res.css";
+@import "./variables.css";
+@import "./global.css";
+
+@import "./navbar.css";
+
+@import "./card.css";
+@import "./infoCardBig.css";
+
+@import "./arge.css";
+
+/* @import "./header.css"; */
+/* @import "./products.css"; */
+/* @import "./footer.css"; */
+/* 
+@import "./sidebar.css";
+@import "./section.css";
+@import "./name-and-title.css";
+@import "./social-medias.css";
+@import "./things.css";
+@import "./technologies.css";
+@import "./workexperience.css"; */
