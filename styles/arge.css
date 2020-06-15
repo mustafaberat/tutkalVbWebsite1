@@ -1,0 +1,4 @@
+.argeContainer h6 {
+  margin-top: var(--gutter);
+  font-weight: bold;
+}
