@@ -1,0 +1,31 @@
+.footer .container {
+  background-color: hotpink;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: var(--gutter);
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  text-align: center;
+  align-items: center;
+}
+
+.footer-colm {
+  background-color: greenyellow;
+}
+
+.footer-colm .footer-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.footer-colm .footer-button {
+  color: var(--blue);
+  border-radius: var(--borderRadius);
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  display: inline-flex;
+  align-items: center;
+  height: var(--fingerSize);
+}
