@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Header() {
     return (
-        <div className="navbar">
+        <div className="navbar sticky-top">
             {/* <img src="/glue.svg" /> */}
             <h3>LOGO</h3>
             <nav className="navbar navbar-expand-lg navbar-dark">
